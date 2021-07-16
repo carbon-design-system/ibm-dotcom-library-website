@@ -1301,6 +1301,33 @@
         "notAvailable": false
       }
     },
+     "Lead space search": {
+      "url": "./lead-space-search",
+      "designLink": "https://ibm.box.com/s/3rjh19oclo961z0q0oaoqtm4gbhzo8b8",
+      "description": "The purpose of a lead space search is to give users a faster route to information discovery by including a prominent search option in the lead space, discoverable from the moment they landed on the page. It will always be positioned at the top.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components",
+        "react": "http://www.ibm.com/standards/carbon/react"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Logo grid": {
       "url": "./logo-grid",
       "designLink": "https://ibm.box.com/s/2c2dt2fivbmbcce29oul7hjaktjaqj26",

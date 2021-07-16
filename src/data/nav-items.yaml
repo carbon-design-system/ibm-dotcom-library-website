@@ -129,6 +129,8 @@
       path: /components/leadspace
     - title: Lead space block
       path: /components/lead-space-block
+    - title: Lead space search
+      path: /components/lead-space-search
     - title: Leaving IBM
       path: /components/leaving-ibm
     - title: Lightbox media viewer

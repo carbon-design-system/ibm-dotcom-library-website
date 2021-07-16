@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>lead_space_search</title>
+<g id="lead_space_search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="Group" transform="translate(72.000000, 120.000000)">
+<rect id="Rectangle-Copy-14" fill="#FFFFFF" width="176" height="80"/>
+<rect id="Rectangle-Copy-15" fill="#161616" width="176" height="80"/>	
+<g id="Group-2" transform="translate(5.000000, 5.000000)">
+<rect id="Rectangle-Copy" x="40" y="0" fill="#F4F4F4" width="60" height="4"/>
+<rect id="Rectangle-Copy-2" x="40" y="8" fill="#F4F4F4" width="60" height="4"/>
+<rect id="Rectangle-Copy-3" x="40" y="16" fill="#A8A8A8" width="60" height="4"/>
+<rect id="Rectangle-Copy-4" x="40" y="24" fill="#A8A8A8" width="40" height="4"/>
+</g>	
+<rect id="Rectangle-Copy-9" x="40" y="60" fill="#A8A8A8" width="88" height="8"/>
+</g>
+</g>
+</svg>
