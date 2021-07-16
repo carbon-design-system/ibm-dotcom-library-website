@@ -11,6 +11,7 @@ import ComponentFooter from "components/ComponentFooter";
 <AnchorLinks>
 
 <AnchorLink>Default</AnchorLink>
+<AnchorLink>Logo placement</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
@@ -22,9 +23,121 @@ import ComponentFooter from "components/ComponentFooter";
 
 Logo grid consists of a heading and a group of logos. Each logo should be contained inside a space (4:3 aspect ratio) and the logos are not clickable.
 
-![default](../..//images/pattern/logo-grid/logo-grid.jpg)
+![default](../..//images/pattern/logo-grid/logo-grid-default.png)
 
 <br />
+
+## Placement
+
+Logos should be ceneterd within a 4:3 aspect ratio to create optical alignment, visual hierarchy, and ensure all brands have equal representation.
+
+### Grid template
+
+Use the logo grid template to size logos and align them within the varying grid guides to achieve equal visual hierarchy.
+
+The grid is meant to be used as a guideline. Make optical adjustments when necessary.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![Logo grid template](../../images/component/logo-grid/logo-grid-template.png)
+
+<Caption>Logo grid template.</Caption>
+
+</Column>
+
+</Row>
+
+#### Alignment
+Logos should be vertically and horizontally centered within a 4:3 aspect ratio. Consider the weight, width and height when aligning the logo to the grid to find equal weight with all logos. Don’t fit every logo to the max width.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![Example of logos within the logo grid](../../images/component/logo-grid/logo-grid-template-4-example.png)
+
+<Caption>Example of logos within the logo grid.</Caption>
+
+</Column>
+
+</Row>
+
+<DoDontRow>
+  <DoDont caption="Always place logo in the center of the template and scale to fit the height or width within the logo grid guides.">
+
+![Always place logo in the center of the template and scale to fit the height or width within the logo grid guides.](../../images/component/logo-grid/logo-grid-alignment-do.png)
+
+  </DoDont>
+  <DoDont type="dont" caption="Don't scale every logo to the max width.">
+
+![Don't scale every logo to the max width.](../../images/component/logo-grid/logo-grid-alignment-dont.png)
+
+  </DoDont>
+</DoDontRow>
+
+<Row className="resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="Logo placement grid"
+  href="https://ibm.box.com/s/t85vh5blf8lbya13ro2c40pzp49m5es1"
+>
+
+![Sketch icon](../../images/sketch_logo.svg)
+</ResourceCard>
+</Column>
+</Row>
+
+### Tips and techniques
+
+#### Orientation
+Use horizontally oriented logos when possible to fit comfortably within the grid and easily maintain visual hierarchy.
+
+<DoDontRow>
+  <DoDont caption="Horizontally oriented logos are easier to fit within the grid template to maintain optical hierarchy with other logos.">
+
+![Horizontally oriented logos are easier to fit within the grid template to maintain optical hierarchy with other logos.](../../images/component/logo-grid/logo-grid-orientation-do.png)
+
+  </DoDont>
+  <DoDont type="dont" caption="Avoid using vertically oriented logos that don’t fit nicely within the grid template.">
+
+![Avoid using vertically oriented logos that don’t fit nicely within the grid template.](../../images/component/logo-grid/logo-grid-orientation-dont.png)
+
+  </DoDont>
+</DoDontRow>
+
+#### Type
+Use logos that include the company name or wordmark, rather than an icon, to ensure brand recognition.
+
+<DoDontRow>
+  <DoDont caption="Use logos with the brand name or wordmark.">
+
+![Use logos with the brand name or wordmark.](../../images/component/logo-grid/logo-grid-type-do.png)
+
+  </DoDont>
+  <DoDont type="dont" caption="Avoid using icon only logos to ensure brand recognition.">
+
+![Avoid using icon only logos to ensure brand recognition.](../../images/component/logo-grid/logo-grid-type-dont.png)
+
+  </DoDont>
+</DoDontRow>
+
+#### Color
+Use all full colored or all monotone logos when placed in a group. Don’t mix full color and monotone, unless the brand colors are black and white.
+
+<DoDontRow>
+  <DoDont caption="Do use full color logos when placed in a group.">
+
+![Do use full color logos when placed in a group.](../../images/component/logo-grid/logo-grid-color-do.png)
+
+  </DoDont>
+  <DoDont type="dont" caption="Don't mix full color and monotone logos when placed in a group.">
+
+![Don't mix full color and monotone logos when placed in a group.](../../images/component/logo-grid/logo-grid-color-dont.png)
+
+  </DoDont>
+</DoDontRow>
 
 ## Content guidance
 
